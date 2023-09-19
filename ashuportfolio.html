@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashu.portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Dancing+Script&family=Poppins&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 27);
+            color: white;
+            font-family: 'Agdasima', sans-serif;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        ul li {
+            list-style: none;
+            margin: 23px 23px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .leftsection {
+            font-size: 2.1rem;
+            width: 238px;
+            margin: 31px 12px;
+        }
+
+        .rightsection {
+            width: 324px;
+
+        }
+
+        .rightsection img {
+            width: 450px;
+            height: 330px;
+            margin: -18px -53px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .leftsection span {
+            color: rgb(147, 70, 220);
+        }
+
+        main hr {
+            margin: 30px 50px;
+            border: 0;
+            height: 1.4px;
+            background-color: #9c97f1;
+        }
+
+        .secondsection {
+            text-align: center;
+        }
+
+        .intro {
+            margin: 20px 80px;
+        }
+
+        .secondsection h1 {
+            color: rgb(147, 70, 220);
+            font-size: 2rem;
+        }
+
+        .thirdsection {
+            display: flex;
+            align-items: center;
+            height: 70px;
+            background-color: black;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .one {
+            font-size: 1.4rem;
+        }
+
+        .two {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 915px) {
+            nav {
+                flex-wrap: wrap;
+                height: auto;
+            }
+
+            .contact {
+                height: 125px;
+            }
+
+            .left {
+                margin-top: 12px;
+            }
+
+            .firstsection {
+                flex-wrap: wrap;
+            }
+
+            .thirdsection {
+                flex-wrap: wrap;
+            }
+
+            .two {
+                margin-bottom: 8px;
+            }
+
+            .left {
+                font-size: 1.8rem;
+            }
+        }
+
+        @media screen and (max-width:585px) {
+            .two {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ashutosh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">Hi, My name is <span>Ashutosh</span>
+                    and I am a <span>Web Developer</span>
+                </div>
+                <div class="rightsection"><img src="ashu.png.png"></div>
+            </section>
+            <hr>
+        </main>
+        <section class="secondsection">
+            <h1>Introduction</h1>
+            <div class="intro">I am Ashutosh Kumar Chaubey. I live in Delhi. I have done my 10th and 12th from CBSE
+                board. I am pursuing graduation from DU. I have done basic computer course (DCA). I have done web
+                development course from NIELIT. </div>
+        </section>
+
+    </header>
+    <footer>
+        <div class="thirdsection">
+            <div class="one">
+                <b>Contact Me</b>
+            </div>
+            <div class="two">
+                E-mail: chaubeyashutosh293@gmail.com
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
